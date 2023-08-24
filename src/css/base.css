@@ -11,7 +11,7 @@
 body {
     
     color: var(--blue-font, #0A224A);
-    background-color: var(--white);
+    background-color: var(--color-white);
 }
 
 .container {
