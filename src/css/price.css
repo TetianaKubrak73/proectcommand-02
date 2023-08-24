@@ -1,0 +1,23 @@
+.conteiner {
+}
+.price-title {
+  visibility: hidden;
+}
+.price-box {
+}
+.price-list {
+}
+.price-item {
+  color: var(--blue-font, #0a224a);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  text-transform: uppercase;
+}
+.price-text {
+  color: var(--blue-font, #0a224a);
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+}
