@@ -1,0 +1,114 @@
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .subscript {
+  }
+}
+
+.subscript {
+  padding: 64px 0;
+}
+.container {
+  padding: 0 16px;
+}
+.subscr-title {
+  color: var(--blue-font, #0a224a);
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.subscr-desc {
+  color: var(--blue-font, #0a224a);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.subscr-form {
+}
+.subscr-div-text {
+  margin-bottom: 20px;
+}
+.subscr-text-input {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 11px 20px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.subscr-div-email {
+  margin-bottom: 20px;
+}
+.subscr-email-input {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 11px 20px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.checkbox-div {
+  margin-bottom: 32px;
+}
+.subscr-check {
+}
+
+.label-checked-name {
+  color: #7a7a7a;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.checkbox-span {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--dark-grey, #b6b6b6);
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.subscr-button {
+  display: flex;
+  width: 224px;
+  height: 50px;
+  padding: 17px 65px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  background: var(--blue-font, #0a224a);
+
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.subscr-pict {
+  margin-top: 30px;
+}
+.subscr-img {
+  border: 2px solid red;
+}
