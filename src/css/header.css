@@ -1,9 +1,11 @@
 
+.header {
+/* outline: 2px solid red; */
+}
 .header-container {
-    
-    display: flex;
+    padding: 28px 16px 28px 16px;
       max-width: 375px;
-      padding: 28px 16px 28px 16px;
+    display: flex;
       justify-content: space-between;
       align-items: center;
       background: var(--light-blue, #F7FAFF);
