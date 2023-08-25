@@ -11,9 +11,10 @@
             type="text"
             name="user-name"
             class="subscr-text-input"
-            placeholder="Name"
+            placeholder="Name*"
             maxlength="16"
             minlength="2"
+            required
           />
         </div>
         <div class="subscr-div-email">
@@ -21,7 +22,10 @@
             type="email"
             name="user-email"
             class="subscr-email-input"
-            placeholder="E-mail"
+            placeholder="E-mail*"
+            maxlength="16"
+            minlength="2"
+            required
           />
           <svg width="0" height="19px" class="svg-name">
             <use href="../img/icons.svg#icon-Vector-1"></use>
@@ -52,6 +56,20 @@
       <picture>
         <source
           srcset="
+            ../img/images.desktop/subscriptoin-1x-min.jpg 1x,
+            ../img/images.desktop/subscriptoin-2x-min.jpg 2x
+          "
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="
+            ../img/images.tab/subscription-1x-min.jpg 1x,
+            ../img/images.tab/subscription-2x-min.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
             ../img/images.mob/subscription-1x-min.jpg 1x,
             ../img/images.mob/subscription-2x-min.jpg 2x
           "
@@ -59,8 +77,6 @@
         />
         <img
           src="../img/images.mob/subscription-1x-min.jpg"
-          width="342"
-          height="300"
           alt="sofa"
           class="subscr-img"
         />
