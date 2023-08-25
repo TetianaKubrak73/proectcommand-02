@@ -66,11 +66,23 @@
 .subscr-email-input:hover {
   border: 1px solid var(--blue-font, #0a224a);
   color: #0a224a;
+  fill: #061835;
 }
+.subscr-div-email {
+  position: relative;
+}
+.svg-name {
+  position: absolute;
+  fill: #0a224a;
+}
+.subscr-email-input:focus + .svg-name {
+  fill: #4d5ae5;
+  border-color: #4d5ae5;
+}
+
 .checkbox-div {
   margin-bottom: 32px;
 }
-
 .label-checked-name {
   color: #7a7a7a;
   font-family: Roboto, sans-serif;
