@@ -1,3 +1,4 @@
+
 .header-container {
     
     display: flex;
@@ -10,7 +11,9 @@
 .header-menu-list {
   display: none;
 }
-
+.header-logo {
+    fill: var(--color-blue-font, #0A224A);
+  }
 
 /************************************* MENU MOBILE******************************/
 
