@@ -12,8 +12,6 @@
   .container {
     max-width: 1440px;
   }
-  .subscript {
-  }
 }
 
 .subscript {
@@ -40,8 +38,7 @@
   line-height: 1.5;
   margin-bottom: 30px;
 }
-.subscr-form {
-}
+
 .subscr-div-text {
   margin-bottom: 20px;
 }
@@ -66,10 +63,12 @@
   gap: 8px;
   flex-shrink: 0;
 }
+.subscr-email-input:hover {
+  border: 1px solid var(--blue-font, #0a224a);
+  color: #0a224a;
+}
 .checkbox-div {
   margin-bottom: 32px;
-}
-.subscr-check {
 }
 
 .label-checked-name {
@@ -89,6 +88,12 @@
   justify-content: center;
   fill: transparent;
 }
+.subscr-check:checked + .label-checked-name span {
+  background-color: #0a224a;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .subscr-button {
   display: flex;
   width: 224px;
@@ -105,6 +110,9 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+}
+.subscr-button:active {
+  background: #061835;
 }
 .subscr-pict {
   margin-top: 30px;
