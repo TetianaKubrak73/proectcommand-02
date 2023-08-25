@@ -1,10 +1,7 @@
-
-.header {
-outline: 2px solid red;
-}
 .header-container {
     padding: 28px 16px 28px 16px;
       max-width: 375px;
+      height: 88px;
     display: flex;
       justify-content: space-between;
       align-items: center;
@@ -86,10 +83,10 @@ outline: 2px solid red;
                                      /*MOBILE 375*/
 
 @media screen and (min-width:375px) {
-  .container {
+  /* .container {
     max-width: 375px;
 
-  }
+  } */
 }
 
                                      /*TABLET 768*/
@@ -98,6 +95,11 @@ outline: 2px solid red;
   .container {
     max-width: 768px;
   }
+
+    .header-container {
+      height: 95px;
+    }
+
     .mob-menu-link {
       font-size: 18px;
     }
@@ -111,12 +113,12 @@ outline: 2px solid red;
     }
 }
 
-                                    /*DEXTOP 1158*/
+                                    /*DEXTOP 1440*/
 
-@media screen and (min-width:1158px) {
+@media screen and (min-width:1440px) {
   .container {
     max-width: 1440px;
-    }
+        }
         .header-container {
           padding: 26px 60px;
           justify-content: space-between;
