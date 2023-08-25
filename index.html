@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/proectcommand-02/assets/index-c9c75f2c.js"></script>
-    <link rel="stylesheet" href="/proectcommand-02/assets/index-f169dfd0.css">
+    <script type="module" crossorigin src="/proectcommand-02/assets/index-c392e2cc.js"></script>
+    <link rel="stylesheet" href="/proectcommand-02/assets/index-6b199002.css">
   </head>
   <body>
     <!-- Tanushka -->
@@ -118,15 +118,35 @@
                         <p class="section-about-item-text">Sustainably sourced materials used in all of our furniture</p>
                     </li>
                     <li class="section-about-item">
-                        <h4 class="section-about-item-title">500+</h4>
+                        <h4 class="section-about-item-title" data-final-value="500" data-step="100" data-show-symbol="+">500+</h4>
                         <p class="section-about-item-text">Unique furniture designs crafted by our skilled artisans</p>
                     </li>
                 </ul>
             </div>
         </div>
-
-        <picture>
-
+        <picture class="section-about-img">
+            <source
+            srcset="
+              ./img/images.desktop/about.as-1x-min        1x,
+              ./img/images.desktop/about.as-2x-min.jpg    2x
+            "
+            media="(min-width: 1440px)"
+            />  
+            <source
+            srcset="
+                ./img/images.tab/about.as-1x-min.jpg    1x,
+                ./img/images.tab/about.as-2x-min.jpg    2x
+            "
+            media="(min-width: 768px)"
+            />
+            <source
+            srcset="
+                ./img/images.mob/about.as-1x-min.jpg    1x,
+                ./img/images.mob/about.as-2x-min.jpg    2x
+            "
+            media="(min-width: 375px)"
+            />
+            <img src="/proectcommand-02/assets/about.as-2x-min-48494731.jpg" alt="sofa" width="536" />
         </picture>
     </div>
 </section>
