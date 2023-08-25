@@ -14,6 +14,7 @@ p:last-child {
 }
 
 ul {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -32,4 +33,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+
 }
