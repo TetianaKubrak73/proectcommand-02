@@ -2,6 +2,7 @@
   background-color: var(--color-white);
 }
 
+
 .section-about {
   padding-left: 0;
   padding-right: 0;
@@ -167,4 +168,6 @@
   .section-about-img {
     max-width: 536px;
   }
+
 }
+
