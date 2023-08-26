@@ -11,7 +11,6 @@
 
 .hero {
     display: block;
-    height: 100vh;
     background-image: url(../img/hero/mobile-bg-1x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,8 +90,6 @@
     }
 
     .hero__title {
-        position: absolute;
-        top: 64px;
         max-width: 648px;
         font-size: 50px;
     }
@@ -114,8 +111,7 @@
         max-width: 312px;
     }
     .hero__text-wrap {
-        position: relative;
-        top: 560px;
+        margin-top: 410px;
     }
 
     @media (min-resolution: 192dpi) {
@@ -149,9 +145,7 @@
     }
 
     .hero__wrap {
-        display: flex;
-        justify-content: end;
-        align-items: end;
+        display: grid;
         width: 1320px;
         height: 532px;
         background-color: hwb(266 7% 62% / 0.01) ;
@@ -162,7 +156,9 @@
         margin-bottom: 0;  
     }
     .hero__text-wrap {
-        position: inherit;
+        margin-top: 0;
+        justify-self: end;
+        align-self: end;
     }
 
     @media (min-resolution: 192dpi) {
