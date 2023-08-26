@@ -30,6 +30,8 @@ background: var(--light-blue, #F7FAFF);
   flex-direction: column;
   overflow: auto;
   background-color: var(--color-white);
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
 }
   .mob-menu:not(.is-open) {
       opacity: 0;
@@ -37,6 +39,9 @@ background: var(--light-blue, #F7FAFF);
       pointer-events: none;
     }
 
+    .mob-menu.is-open {
+      transform: translateX(0);
+    }
 
 .menu-container {
   display: flex;
@@ -46,14 +51,12 @@ background: var(--light-blue, #F7FAFF);
       align-items: center;
       background: var(--light-blue, #F7FAFF);
 }
-
 .menu-close-btn {
   display: block;
   margin-left: auto;
   border: none;
   background-color: transparent;
 }
-
 .mob-menu-container {
   display: flex;
   justify-content: center;
