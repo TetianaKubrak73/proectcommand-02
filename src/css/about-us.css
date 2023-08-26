@@ -1,16 +1,13 @@
 .section-about {
-  background-color: var(--color-white);
-}
-
-
-.section-about {
   padding-left: 0;
   padding-right: 0;
+  background-color: var(--color-white);
 }
 
 .section-about-wraper {
   background-color: var(--color-light-blue);
   padding: 64px 16px;
+  width: 375px;
 }
 
 .section-about-title {
@@ -90,9 +87,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: var(--color-white);
-  }
-
-  .section-about {
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -101,6 +95,7 @@
     background-color: var(--color-light-blue);
     padding: 36px 64px;
     margin-bottom: 30px;
+    width: 704px;
   }
 
   .section-about-subtitle {
@@ -139,9 +134,6 @@
   .section-about {
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  .section-about {
     padding-left: 60px;
     padding-right: 60px;
   }
