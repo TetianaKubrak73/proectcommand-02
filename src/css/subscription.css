@@ -1,21 +1,3 @@
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-  .subscript {
-  }
-}
-
 .subscript {
   padding: 64px 0;
 }
@@ -40,8 +22,7 @@
   line-height: 1.5;
   margin-bottom: 30px;
 }
-.subscr-form {
-}
+
 .subscr-div-text {
   margin-bottom: 20px;
 }
@@ -66,12 +47,26 @@
   gap: 8px;
   flex-shrink: 0;
 }
+.subscr-email-input:hover {
+  border: 1px solid var(--blue-font, #0a224a);
+  color: #0a224a;
+  fill: #061835;
+}
+.subscr-div-email {
+  position: relative;
+}
+.svg-name {
+  position: absolute;
+  fill: #0a224a;
+}
+.subscr-email-input:focus + .svg-name {
+  fill: #4d5ae5;
+  border-color: #4d5ae5;
+}
+
 .checkbox-div {
   margin-bottom: 32px;
 }
-.subscr-check {
-}
-
 .label-checked-name {
   color: #7a7a7a;
   font-family: Roboto, sans-serif;
@@ -89,6 +84,12 @@
   justify-content: center;
   fill: transparent;
 }
+.subscr-check:checked + .label-checked-name span {
+  background-color: #0a224a;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .subscr-button {
   display: flex;
   width: 224px;
@@ -99,6 +100,9 @@
   gap: 6px;
   flex-shrink: 0;
   background: var(--blue-font, #0a224a);
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
   color: var(--white, #fff);
   font-family: Roboto;
@@ -106,9 +110,88 @@
   font-weight: 400;
   line-height: 1.5;
 }
+.subscr-button:active {
+  background: #061835;
+}
 .subscr-pict {
   margin-top: 30px;
 }
-.subscr-img {
-  border: 2px solid red;
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .subscript {
+    padding: 100px 0;
+  }
+  .subscr-title {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .subscr-desc {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .subscr-text-input {
+    width: 536px;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+  .subscr-email-input {
+    width: 536px;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+  .label-checked-name {
+    font-size: 18px;
+  }
+  .subscr-pict {
+    margin-top: 65px;
+  }
+  .subscr-button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+  }
+  .subscript {
+    padding-bottom: 84px;
+  }
+  .subscr-pict {
+    margin-top: 0%;
+  }
+  .subscr-desc {
+    width: 538px;
+    margin-bottom: 22px;
+  }
+  .subscr-button {
+    height: 52px;
+  }
+  .subscr-text-input {
+    height: 52px;
+  }
+  .subscr-email-input {
+    height: 52px;
+  }
+  .subscr-div-email {
+    margin-bottom: 22px;
+  }
 }
