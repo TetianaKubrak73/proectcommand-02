@@ -11,6 +11,7 @@
 
 .hero {
     display: block;
+    height: 100vh;
     background-image: url(../img/hero/mobile-bg-1x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,6 +65,10 @@
 .hero__btn:focus {
     background-color: #061835;
 }
+
+.hero__text-tabl {
+    display: none;
+ }
  
 
 @media (min-resolution: 192dpi) {
@@ -81,6 +86,7 @@
     .hero {
         padding: 64px 0;
         background: none;
+        height: auto;
     } 
 
     .hero__conainer {
@@ -111,7 +117,11 @@
         max-width: 312px;
     }
     .hero__text-wrap {
-        margin-top: 410px;
+        display: none;
+    }
+    .hero__text-tabl {
+        margin-top: 32px;
+        display: inherit;
     }
 
     @media (min-resolution: 192dpi) {
@@ -159,6 +169,13 @@
         margin-top: 0;
         justify-self: end;
         align-self: end;
+    }
+
+    .hero__text-wrap {
+        display: inherit
+    }
+    .hero__text-tabl {
+       display: none;
     }
 
     @media (min-resolution: 192dpi) {
