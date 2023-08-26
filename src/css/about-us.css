@@ -126,6 +126,10 @@
   .section-about-img {
     max-width: 704px;
   }
+
+  .section-about-container {
+    max-width: 704px;
+  }
 }
 
 /* -----------DESKTOP----------- */
