@@ -1,0 +1,137 @@
+.bestsellers-section {
+  /* padding: 64px 0; */
+  padding-bottom: 64px;
+}
+
+.bestsellers-container {
+  /* padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red; */
+}
+
+.bestsellers-title {
+  color: var(--color-blue-font, #0a224a);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.main-image {
+}
+
+.sub-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.bestsellers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.bestsellers-point {
+}
+
+.bestsellers-name {
+  color: var(--color-blue-font, #0a224a);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 14px;
+}
+
+.bestsellers-cost {
+  color: var(--color-blue-font, #0a224a);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* ====== Mobile ====== */
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 373px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hide-mob {
+    display: none;
+  }
+}
+
+/* ====== Tablet ====== */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 734px;
+  }
+
+  .bestsellers-title {
+    font-size: 32px;
+    line-height: 1.41;
+    margin-bottom: 30px;
+  }
+
+  .bestsellers-list {
+    gap: 32px;
+  }
+
+  .sub-images {
+    gap: 32px;
+  }
+
+  .sub-images .bestsellers-point {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .bestsellers-name {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .bestsellers-cost {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+}
+
+/* ====== Desktop ====== */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1350px;
+    padding-left: 127px;
+    padding-right: 127px;
+  }
+
+  .bestsellers-list {
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .main-image {
+  }
+
+  .main-image .bestsellers-point {
+    width: 536px;
+  }
+
+  .sub-images {
+    row-gap: 30px;
+    column-gap: 20px;
+  }
+
+  .sub-images .bestsellers-point {
+    width: calc((100% - 20px) / 2);
+  }
+}
