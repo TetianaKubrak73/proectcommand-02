@@ -2,7 +2,8 @@
   background-color: var(--color-white);
 }
 
-.section-about .container {
+
+.section-about {
   padding-left: 0;
   padding-right: 0;
 }
@@ -91,7 +92,8 @@
     background-color: var(--color-white);
   }
 
-  .section-about .container {
+
+  .section-about {
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -140,7 +142,7 @@
     padding-bottom: 100px;
   }
 
-  .section-about .container {
+  .section-about {
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -167,4 +169,6 @@
   .section-about-img {
     max-width: 536px;
   }
+
 }
+
