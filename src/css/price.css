@@ -1,5 +1,7 @@
 .price-container {
   padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .list {
   list-style-type: none;
