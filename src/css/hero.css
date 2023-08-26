@@ -84,7 +84,7 @@
 @media screen and (min-width: 768px) {
 
     .hero {
-        padding: 64px 0;
+        padding: 64px 0 0 0;
         background: none;
         height: auto;
     } 
@@ -139,7 +139,7 @@
 @media screen and (min-width: 1440px) {
 
     .hero {
-        padding: 64px 0;
+        padding: 64px 0 0 0;
     }
 
     .hero__conainer {
