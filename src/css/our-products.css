@@ -86,6 +86,8 @@
 @media screen and (min-width: 1440px) {
   .products-container {
     max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .products-list {
     gap: 24px;
