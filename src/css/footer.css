@@ -143,7 +143,7 @@ letter-spacing: 0.1em;
 @media screen and (min-width:768px ) {
     .footer-container {
         max-width: 704px;
-        padding: 36px 32px 36px 32px;
+        padding: 36px 0px 36px 0px;
         margin: 0 auto;
         position: relative;
     }
