@@ -46,7 +46,7 @@
   align-items: center;
   gap: 8px;
   flex-shrink: 0;
-}
+  }
 .subscr-email-input:hover {
   border: 1px solid var(--blue-font, #0a224a);
   color: #0a224a;
