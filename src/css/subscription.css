@@ -51,19 +51,12 @@
   border: 1px solid var(--blue-font, #0a224a);
   color: #0a224a;
   fill: #061835;
+  border-color: #0a224a;
 }
+
 .subscr-div-email {
   position: relative;
 }
-.svg-name {
-  position: absolute;
-  fill: #0a224a;
-}
-.subscr-email-input:focus + .svg-name {
-  fill: #4d5ae5;
-  border-color: #4d5ae5;
-}
-
 .checkbox-div {
   margin-bottom: 32px;
 }
@@ -87,7 +80,7 @@
 .subscr-check:checked + .label-checked-name span {
   background-color: #0a224a;
   border: none;
-  fill: #f4f4fd;
+  fill: #fff;
 }
 
 .subscr-button {
@@ -109,17 +102,21 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  border: none;
 }
 .subscr-button:active {
+  background: #061835;
+}
+.subscr-button:focus {
   background: #061835;
 }
 .subscr-pict {
   margin-top: 30px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   .container {
-    max-width: 375px;
+    max-width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -165,7 +162,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .container {
+  .containerer {
     max-width: 1440px;
     display: flex;
     flex-direction: row;
