@@ -1,0 +1,129 @@
+.price-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.list {
+  list-style-type: none;
+}
+.price-title {
+  display: none;
+}
+.price-box {
+  padding-bottom: 64px;
+}
+.price-list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  color: var(--blue-font, #0a224a);
+  border-bottom: var(--blue-font, #0a224a) solid 1px;
+}
+.price-item:first-child {
+  border-top: var(--blue-font, #0a224a) solid 1px;
+}
+.price-item:hover::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 3px;
+  background-color: var(--blue-font, #0a224a);
+}
+
+.price-item-text {
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+.price-item-amount {
+  color: var(--blue-font, #0a224a);
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* ====== Mobile ====== */
+@media screen and (min-width: 375px) {
+  .price-container {
+    max-width: 373px;
+  }
+}
+
+/* =============TAB 768============  */
+
+@media screen and (min-width: 768px) {
+  .price-container {
+    max-width: 734px;
+  }
+
+  .price-box {
+    padding-bottom: 100px;
+  }
+
+  .price-item-text {
+    font-size: 32px;
+  }
+  .price-item-amount {
+    font-size: 18px;
+  }
+}
+
+/* ============DESkTOP 1440===========*/
+
+@media screen and (min-width: 1440px) {
+  .price-container {
+    max-width: 1350px;
+    padding-left: 127px;
+    padding-right: 127px;
+    margin: 0 auto;
+  }
+  .price-item {
+    position: relative;
+    cursor: pointer;
+    list-style: none;
+    padding-left: 20px;
+    overflow: hidden;
+    transition: padding-left 0.5s ease;
+  }
+  .price-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 0;
+    background-color: var(--blue-font, #0a224a);
+    transition: width 0.3s ease;
+    opacity: 0;
+  }
+  .price-item:hover::before {
+    width: 30px;
+    opacity: 1;
+  }
+  .price-item:hover {
+    padding-left: 50px;
+  }
+  .price-item-text {
+    font-size: 32px;
+  }
+  .price-item-amount {
+    font-size: 18px;
+  }
+}

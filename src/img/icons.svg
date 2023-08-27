@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-cloze-menu" viewBox="0 0 32 32">
+      <path fill="none" stroke="#0a224a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 8 8 24M8 8l16 16" style="stroke:var(--color1, #0a224a)"/>
+    </symbol>
+    <symbol id="icon-open-menu" viewBox="0 0 32 32">
+      <path fill="none" stroke="#0a224a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M28 13.333H4M28 8H4M28 18.667H4M28 24H4" style="stroke:var(--color1, #0a224a)"/>
+    </symbol>
+    <symbol id="icon-logo" viewBox="0 0 200 32">
+      <path  d="M0 28V0h4.989l12.323 9.085h.186L29.821 0h4.989v28h-5.957V7.832l-8.451 5.952v14.215h-5.957V13.784L5.956 7.832V28H-.001zM40.403 28V0h5.957v28h-5.957zM51.937 28V0h6.031l18.839 20.129V0h5.957v28h-6.031L57.894 7.832V28h-5.957zM88.34 28V0h5.957v28H88.34zM99.874 28V0h4.989l12.323 9.085h.186L129.695 0h4.989v28h-5.957V7.832l-8.451 5.952v14.215h-5.957V13.784l-8.489-5.952V28h-5.957zM138.043 28l11.988-28h9.196l11.988 28h-6.478l-2.532-5.913h-15.153L144.52 28h-6.478zm11.169-11.004h10.834l-5.175-12.101h-.484l-5.175 12.101zM174.571 28V0h5.957v22.909H200V28h-25.429z" />
+    </symbol>
+
+    <symbol id="icon-checkmark" viewBox="0 0 32 32">
+      <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"/>
+    </symbol>
+    <symbol id="icon-Vector-1" viewBox="0 0 3 32">
+     <path fill="none" stroke="#0a224a" style="stroke: var(--color1, #0a224a)" 
+       stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6842" 
+       d="M1.684 0v32"></path>
+    </symbol>
+
+
+<symbol id="icon-logo-1" viewBox="0 0 241 32">
+<path d="M0 31.964v-31.964h5.992l14.795 10.372h0.226l14.795-10.372h5.992v31.964h-7.153v-23.023l-10.148 6.795v16.228h-7.153v-16.228l-10.193-6.795v23.023h-7.153zM48.514 31.964v-31.964h7.153v31.964h-7.153zM62.364 31.964v-31.964h7.243l22.62 22.978v-22.978h7.153v31.964h-7.24l-22.626-23.023v23.023h-7.153zM106.076 31.964v-31.964h7.153v31.964h-7.153zM119.927 31.964v-31.964h5.992l14.797 10.372h0.224l14.797-10.372h5.992v31.964h-7.153v-23.023l-10.15 6.795v16.228h-7.153v-16.228l-10.193-6.795v23.023h-7.153zM165.76 31.964l14.394-31.964h11.042l14.396 31.964h-7.78l-3.040-6.75h-18.195l-3.040 6.75h-7.778zM179.172 19.401h13.009l-6.214-13.811h-0.584l-6.212 13.813zM209.623 31.964v-31.964h7.153v26.153h23.381v5.811h-30.534z"></path>
+</symbol>
+
+  </defs>
+</svg>
