@@ -43,6 +43,7 @@
 .about-us-results {
   text-align: center;
 }
+
 .list-about-us {
   display: inline-flex;
   flex-direction: column;
@@ -140,7 +141,10 @@
     flex-direction: row;
     gap: 56px;
   }
+  
   .img-about-us {
-    max-width: 536px;
+    /* max-width: 536px; */
+    margin: 0 auto;
   }
 }
+
