@@ -1,3 +1,6 @@
+
+
+
 /*  M O B I L E  */
 
 .hero__conainer {
@@ -9,7 +12,7 @@
 .hero {
     display: block;
     height: 718px;
-    background-image: url(../img/hero/mobile-bg-1x.jpg);
+    background-image: url(../img/images.mob/hero-1x-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -58,7 +61,6 @@
     transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-
 .hero__btn:hover,
 .hero__btn:focus {
     background-color: #061835;
@@ -66,12 +68,12 @@
 
 .hero__text-tabl {
     display: none;
-}
-
+ }
+ 
 
 @media (min-resolution: 192dpi) {
     .hero {
-        background-image: url(../img/hero/mobile-bg-2x.jpg);
+        background-image: url(../img/images.mob/hero-2x-min.jpg);
     }
 }
 
@@ -85,7 +87,7 @@
         padding: 64px 0 0 0;
         background: none;
         height: auto;
-    }
+    } 
 
     .hero__conainer {
         max-width: 768px;
@@ -101,7 +103,7 @@
     .hero__wrap {
         width: 704px;
         height: 530px;
-        background-image: url(../img/hero/tablet-left__bg__1x.jpg), url(../img/hero/tablet-right__bg__1x.jpg);
+        background-image: url(../img/images.tab/hero1-1x-min.jpg), url(../img/images.tab/hero2-1x-min.jpg) ;
         background-size: 308px 329px, 364px 530px;
         background-repeat: no-repeat, no-repeat;
         background-position: bottom left, bottom right;
@@ -114,11 +116,9 @@
         margin-bottom: 30px;
         max-width: 312px;
     }
-
     .hero__text-wrap {
         display: none;
     }
-
     .hero__text-tabl {
         margin-top: 32px;
         display: inherit;
@@ -126,7 +126,7 @@
 
     @media (min-resolution: 192dpi) {
         .hero__wrap {
-            background-image: url(../img/hero/tablet-left__bg__2x.jpg), url(../img/hero/tablet-right__bg__2x.jpg);
+            background-image: url(../img/images.tab/hero1-2x-min.jpg), url(../img/images.tab/hero2-2x-min.jpg) ;
         }
     }
 
@@ -158,14 +158,13 @@
         display: grid;
         width: 1320px;
         height: 532px;
-        background-color: hwb(266 7% 62% / 0.01);
-        background-image: url(../img/hero/desc-left__bg__1x.jpg), url(../img/hero/desc-center__bg__1x.jpg), url(../img/hero/desc-right__bg__1x.jpg);
+        background-color: hwb(266 7% 62% / 0.01) ;
+        background-image: url(../img/images.desktop/hero1-1x-min.jpg), url(../img/images.desktop/hero2-1x-min.jpg), url(../img/images.desktop/hero3-1x-min.jpg);
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: bottom left, bottom center, top right;
-        background-size: 310px 330px, 648px 530px, 312px 338px;
-        margin-bottom: 0;
+        background-size: 310px 330px, 648px 530px, 312px 338px;   
+        margin-bottom: 0;  
     }
-
     .hero__text-wrap {
         margin-top: 0;
         justify-self: end;
@@ -175,15 +174,14 @@
     .hero__text-wrap {
         display: inherit
     }
-
     .hero__text-tabl {
-        display: none;
+       display: none;
     }
 
     @media (min-resolution: 192dpi) {
-
+        
         .hero__wrap {
-            background-image: url(../img/hero/desc-left__bg__2x.jpg), url(../img/hero/desc-center__bg__2x.jpg), url(../img/hero/desc-right__bg__2x.jpg);
+            background-image:  url(../img/images.desktop/hero1-2x-min.jpg), url(../img/images.desktop/hero2-2x-min.jpg), url(../img/images.desktop/hero3-2x-min.jpg);
         }
     }
 }
