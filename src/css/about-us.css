@@ -87,6 +87,7 @@
     background-color: var(--color-light-blue);
     padding: 36px 64px;
     margin-bottom: 30px;
+    width: 704px;
   }
 
   .title-about-us-secondary {
@@ -118,7 +119,7 @@
   .about-us {
     padding-top: 100px;
   }
-  .about-us .container {
+  .about-us .container-section {
     padding-left: 60px;
     padding-right: 60px;
   }
