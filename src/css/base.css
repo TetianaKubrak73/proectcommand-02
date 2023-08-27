@@ -1,37 +1,34 @@
 :root {
-
-    --color-light-blue: #f7faff;
-        --color-blue-font: #0a224a;
-        --color-white: #ffffff;
-        --color-grey: #d9d9d9;
-        --color-dark-grey: #b6b6b6;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+  --color-light-blue: #f7faff;
+  --color-blue-font: #0a224a;
+  --color-white: #ffffff;
+  --color-grey: #d9d9d9;
+  --color-dark-grey: #b6b6b6;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 body {
-    
-    color: var(--blue-font, #0A224A);
-    background-color: var(--color-white);
+  color: var(--blue-font, #0a224a);
+  background-color: var(--color-white);
 }
 
 .container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
