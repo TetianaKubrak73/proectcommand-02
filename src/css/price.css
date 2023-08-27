@@ -60,6 +60,7 @@
 @media screen and (min-width: 768px) {
   .price-container {
     max-width: 734px;
+    margin: 0 auto;
   }
   .price-item-text {
     font-size: 32px;
