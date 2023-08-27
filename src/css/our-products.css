@@ -80,16 +80,12 @@
   .product-item-tablet {
     display: block;
   }
-  .products-img {
-  }
 }
 
 /* ============DESkTOP 1440===========*/
 @media screen and (min-width: 1440px) {
   .products-container {
     max-width: 1440px;
-  }
-  .products-box {
   }
   .products-list {
     gap: 24px;
