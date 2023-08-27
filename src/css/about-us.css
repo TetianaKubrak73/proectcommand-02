@@ -141,6 +141,6 @@
     gap: 56px;
   }
   .img-about-us {
-    max-width: 536px;
+    /* max-width: 536px; */
   }
 }
