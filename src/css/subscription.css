@@ -1,0 +1,233 @@
+.container-sub {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.subscript {
+  padding: 64px 0;
+}
+.container-sub {
+  padding: 0 16px;
+}
+.subscr-title {
+  color: var(--blue-font, #0a224a);
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.subscr-desc {
+  color: var(--blue-font, #0a224a);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.subscr-div-text {
+  margin-bottom: 20px;
+}
+.subscr-text-input {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 11px 20px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.subscr-text-input:hover {
+  border: 1px solid var(--blue-font, #0a224a);
+  color: #0a224a;
+  fill: #061835;
+}
+.subscr-div-email {
+  margin-bottom: 20px;
+  position: relative;
+}
+.subscr-email-input {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 11px 20px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+
+}
+.subscr-email-svg {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  /*
+  fill: #e74a3b;
+  */
+  fill: #ffffff;
+}
+
+.subscr-email-input:hover {
+  border: 1px solid var(--blue-font, #0a224a);
+  color: #0a224a;
+  fill: #061835;
+}
+
+.subscr-email-input:focus:invalid + .subscr-email-svg {
+  border: none;
+
+  border-radius: 1px;
+  color: #e74a3b;
+  fill: #e74a3b;
+}
+.subscr-email-input:focus:invalid {
+  outline: 2px solid #e74a3b;
+}
+
+/*-----------------------------------*/
+
+.checkbox-div {
+  margin-bottom: 32px;
+}
+.label-checked-name {
+  color: #7a7a7a;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.checkbox-span {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--dark-grey, #b6b6b6);
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.subscr-check:checked + .label-checked-name span {
+  background-color: #0a224a;
+  border: none;
+  fill: #fff;
+}
+
+.subscr-button {
+  display: flex;
+  width: 224px;
+  height: 50px;
+  padding: 17px 65px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  background: var(--blue-font, #0a224a);
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  border: none;
+}
+.subscr-button:active {
+  background: #061835;
+}
+.subscr-button:focus {
+  background: #061835;
+}
+.subscr-pict {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 320px) {
+  .container-sub {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-sub {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .subscript {
+    padding: 100px 0;
+  }
+  .subscr-title {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .subscr-desc {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .subscr-text-input {
+    width: 536px;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+  .subscr-div-email {
+    width: 536px;
+  }
+  .subscr-email-input {
+    width: 536px;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+  .label-checked-name {
+    font-size: 18px;
+  }
+  .subscr-pict {
+    margin-top: 65px;
+  }
+  .subscr-button {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-sub {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+  }
+  .subscript {
+    padding-bottom: 84px;
+  }
+  .subscr-pict {
+    margin-top: 0%;
+  }
+  .subscr-desc {
+    width: 538px;
+    margin-bottom: 22px;
+  }
+  .subscr-button {
+    height: 52px;
+  }
+  .subscr-text-input {
+    height: 52px;
+  }
+  .subscr-email-input {
+    height: 52px;
+  }
+  .subscr-div-email {
+    margin-bottom: 22px;
+  }
+  .subscr-img {
+    width: 460px;
+  }
+}
