@@ -4,6 +4,7 @@
 .about-us .container-section {
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 64px;
 }
 .about-us-container {
   background-color: var(--color-light-blue);
