@@ -28,7 +28,7 @@
 }
 .product-item-tablet,
 .product-item-desktop {
-  display: none;
+  display: block;
 }
 
 .products-picture {
@@ -47,6 +47,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
 }
 /* =============MOBILE============= */
 
