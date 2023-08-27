@@ -1,16 +1,15 @@
-.section-about {
-  padding-left: 0;
-  padding-right: 0;
+.about-us {
   background-color: var(--color-white);
 }
-
-.section-about-wraper {
+.about-us .container-section {
+  padding-left: 0;
+  padding-right: 0;
+}
+.about-us-container {
   background-color: var(--color-light-blue);
   padding: 64px 16px;
-  width: 375px;
 }
-
-.section-about-title {
+.title-about-us {
   display: flex;
   color: var(--color-blue-font);
   font-size: 16px;
@@ -19,44 +18,39 @@
   align-items: center;
   margin-bottom: 30px;
 }
-
-.section-about-title::before {
+.title-about-us::before {
   content: '';
   width: 30px;
   height: 1px;
   background-color: var(--color-blue-font);
   margin-right: 20px;
 }
-
-.section-about-subtitle {
-  color: var(---color-blue-font);
+.title-about-us-secondary {
+  color: var(--color-blue-font);
   font-size: 28px;
   font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
-.section-about-text {
+.taxt-about-us {
   color: var(--color-blue-font);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 30px;
 }
-
-.about-us-result {
+.about-us-results {
   text-align: center;
 }
-
-.section-about-list {
+.list-about-us {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 30px;
 }
 
-.section-about-item-title {
+.title-about-us-item {
   color: var(--color-blue-font);
   text-align: center;
   font-size: 50px;
@@ -67,7 +61,7 @@
   margin-bottom: 14px;
 }
 
-.section-about-item-text {
+.taxt-about-us-item {
   color: var(--color-blue-font);
   text-align: center;
   font-size: 16px;
@@ -75,93 +69,77 @@
   line-height: 1.5;
   max-width: 170px;
 }
-
-.section-about-img {
+.img-about-us {
   max-width: 375px;
 }
 
-/* -----------TABLET----------- */
-
 @media screen and (min-width: 768px) {
-  .section-about {
+  .about-us {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: var(--color-white);
+  }
+  .about-us .container-section {
     padding-left: 32px;
     padding-right: 32px;
   }
-
-  .section-about-wraper {
+  .about-us-container {
     background-color: var(--color-light-blue);
     padding: 36px 64px;
     margin-bottom: 30px;
-    width: 704px;
   }
 
-  .section-about-subtitle {
+  .title-about-us-secondary {
     font-size: 32px;
     font-weight: 400;
     line-height: 1.4;
     text-transform: uppercase;
     margin-bottom: 30px;
   }
-
-  .section-about-text {
+  .taxt-about-us {
     font-size: 18px;
   }
-
-  .section-about-item-text {
+  .taxt-about-us-item {
     font-size: 18px;
   }
-
-  .about-us-result {
+  .about-us-results {
     margin-bottom: 0;
   }
-
-  .section-about-list {
+  .list-about-us {
     flex-direction: row;
     gap: 33px;
   }
-
-  .section-about-img {
-    max-width: 704px;
-  }
-
-  .section-about-container {
+  .img-about-us {
     max-width: 704px;
   }
 }
 
-/* -----------DESKTOP----------- */
-
 @media screen and (min-width: 1440px) {
-  .section-about {
+  .about-us {
     padding-top: 100px;
-    padding-bottom: 100px;
+  }
+  .about-us .container {
     padding-left: 60px;
     padding-right: 60px;
   }
-
-  .section-about-wraper {
+  .about-us-container {
     padding-left: 69px;
     padding-right: 69px;
-    padding-bottom: 37px;
+    padding-bottom: 34px;
     margin-bottom: 0;
     max-width: 760px;
   }
-
-  .section-about-container {
+  .container-desktop {
     display: flex;
     align-items: center;
     gap: 24px;
   }
 
-  .section-about-list {
+  .list-about-us {
     flex-direction: row;
-    gap: 55.94px;
+    gap: 56px;
   }
-
-  .section-about-img {
+  .img-about-us {
     max-width: 536px;
   }
 }
