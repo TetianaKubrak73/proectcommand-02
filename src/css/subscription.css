@@ -1,7 +1,14 @@
+.container-sub {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .subscript {
   padding: 64px 0;
 }
-.container {
+.container-sub {
   padding: 0 16px;
 }
 .subscr-title {
@@ -35,8 +42,14 @@
   gap: 8px;
   flex-shrink: 0;
 }
+.subscr-text-input:hover {
+  border: 1px solid var(--blue-font, #0a224a);
+  color: #0a224a;
+  fill: #061835;
+}
 .subscr-div-email {
   margin-bottom: 20px;
+  position: relative;
 }
 .subscr-email-input {
   display: flex;
@@ -47,16 +60,35 @@
   gap: 8px;
   flex-shrink: 0;
 }
+.subscr-email-svg {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  /*
+  fill: #e74a3b;
+  */
+  fill: #ffffff;
+}
+
 .subscr-email-input:hover {
   border: 1px solid var(--blue-font, #0a224a);
   color: #0a224a;
   fill: #061835;
-  border-color: #0a224a;
 }
 
-.subscr-div-email {
-  position: relative;
+.subscr-email-input:focus:invalid + .subscr-email-svg {
+  border: none;
+
+  border-radius: 1px;
+  color: #e74a3b;
+  fill: #e74a3b;
 }
+.subscr-email-input:focus:invalid {
+  outline: 2px solid #e74a3b;
+}
+
+/*-----------------------------------*/
+
 .checkbox-div {
   margin-bottom: 32px;
 }
@@ -115,12 +147,12 @@
 }
 
 @media screen and (min-width: 320px) {
-  .container {
+  .container-sub {
     max-width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .container-sub {
     max-width: 768px;
     padding: 0 32px;
   }
@@ -144,6 +176,9 @@
     align-items: flex-start;
     font-size: 18px;
   }
+  .subscr-div-email {
+    width: 536px;
+  }
   .subscr-email-input {
     width: 536px;
     align-items: flex-start;
@@ -162,7 +197,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .containerer {
+  .container-sub {
     max-width: 1440px;
     display: flex;
     flex-direction: row;
@@ -190,5 +225,8 @@
   }
   .subscr-div-email {
     margin-bottom: 22px;
+  }
+  .subscr-img {
+    width: 460px;
   }
 }
