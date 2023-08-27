@@ -120,6 +120,7 @@
   .bestsellers-list {
     gap: 24px;
     flex-wrap: nowrap;
+    height: 562px;
   }
 
   .main-image {
@@ -139,5 +140,6 @@
 
   .sub-images .bestsellers-point {
     width: calc((100% - 20px) / 2);
+    height: 266px;
   }
 }
