@@ -1,6 +1,7 @@
 .header {
 background: var(--light-blue, #F7FAFF);
 }
+
 .header-container {
     padding: 28px 16px 28px 16px;
       max-width: 375px;
@@ -16,6 +17,7 @@ background: var(--light-blue, #F7FAFF);
 .header-logo {
     fill: var(--color-blue-font, #0A224A);
   }
+
 
 /************************************* MENU MOBILE******************************/
 
@@ -126,7 +128,7 @@ background: var(--light-blue, #F7FAFF);
     max-width: 1440px;
         }
         .header-container {
-          padding: 26px 60px;
+          padding: 26px 45px;
           justify-content: space-between;
           
         }
@@ -153,8 +155,11 @@ background: var(--light-blue, #F7FAFF);
       font-style: normal;
       font-weight: 400;
       line-height: 1.5;
-     
-   }
+    }
+    .header-menu-link:hover {
+      border: 1px solid var(--blue-font, #0A224A);
+      
+    }
      .mob-menu {
       display: none;
      }
