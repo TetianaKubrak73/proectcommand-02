@@ -1,5 +1,5 @@
 <section class="subscript">
-  <div class="container">
+  <div class="container containerer">
     <div>
       <h2 class="subscr-title">Newsletter</h2>
       <p class="subscr-desc">
@@ -11,7 +11,10 @@
             type="text"
             name="user-name"
             class="subscr-text-input"
-            placeholder="Name"
+            placeholder="Name*"
+            maxlength="16"
+            minlength="2"
+            required
           />
         </div>
         <div class="subscr-div-email">
@@ -19,8 +22,14 @@
             type="email"
             name="user-email"
             class="subscr-email-input"
-            placeholder="E-mail"
+            placeholder="E-mail*"
+            maxlength="16"
+            minlength="2"
+            required
           />
+          <svg width="0" height="19px" class="svg-name">
+            <use href="../img/icons.svg#icon-Vector-1"></use>
+          </svg>
         </div>
         <div class="checkbox-div">
           <input
@@ -33,7 +42,7 @@
           <label for="user-subscript" class="label-checked-name">
             <span class="checkbox-span">
               <svg width="10" height="10">
-                <use></use>
+                <use href="../img/icons.svg#icon-checkmark"></use>
               </svg>
             </span>
             Agree to subscribe to the newsletter
@@ -47,15 +56,27 @@
       <picture>
         <source
           srcset="
-            /src/img/subscription/subscr-1x.jpg 1x,
-            /src/img/subscription/subscr-2x.jpg 2x
+            ../img/images.desktop/subscriptoin-1x-min.jpg 1x,
+            ../img/images.desktop/subscriptoin-2x-min.jpg 2x
+          "
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="
+            ../img/images.tab/subscription-1x-min.jpg 1x,
+            ../img/images.tab/subscription-2x-min.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            ../img/images.mob/subscription-1x-min.jpg 1x,
+            ../img/images.mob/subscription-2x-min.jpg 2x
           "
           media="(min-width:375px)"
         />
         <img
-          src="/src/img/subscription/subscr-1x.jpg"
-          width="342"
-          height="300"
+          src="../img/images.mob/subscription-1x-min.jpg"
           alt="sofa"
           class="subscr-img"
         />
