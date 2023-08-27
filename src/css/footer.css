@@ -165,7 +165,7 @@ letter-spacing: 0.1em;
         width: 40px;
         height: 40px;
       }
-
+      
 
 
     /* ------------------FOOTER MENU---------------- */
@@ -240,7 +240,9 @@ letter-spacing: 0.1em;
 .footer-svg {
     margin-bottom: 39px;
 }
-
+.footer-list-svg {
+    gap: 30px;
+}
 
 /* ------------------FOOTER MENU---------------- */
 
