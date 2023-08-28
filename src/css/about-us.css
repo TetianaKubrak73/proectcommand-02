@@ -75,6 +75,16 @@
   max-width: 767px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .title-about-us-secondary {
+    max-width: 767px;
+  }
+
+  .taxt-about-us {
+    max-width: 767px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .about-us {
     padding-top: 100px;
