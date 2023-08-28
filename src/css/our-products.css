@@ -7,7 +7,6 @@
 .products-box {
   padding-bottom: 64px;
 }
-
 .products-title {
   color: var(--blue-font, #0a224a);
   text-align: center;
@@ -80,16 +79,14 @@
   .product-item-tablet {
     display: block;
   }
-  .products-img {
-  }
 }
 
 /* ============DESkTOP 1440===========*/
 @media screen and (min-width: 1440px) {
   .products-container {
     max-width: 1440px;
-  }
-  .products-box {
+    padding-left: 0;
+    padding-right: 0;
   }
   .products-list {
     gap: 24px;
