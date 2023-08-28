@@ -157,7 +157,7 @@ background: var(--light-blue, #F7FAFF);
       line-height: 1.5;
     }
     .header-menu-link:hover {
-      border: 1px solid var(--blue-font, #0A224A);
+      color: var(--color-dark-grey, #b6b6b6);
       
     }
      .mob-menu {
