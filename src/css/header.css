@@ -33,7 +33,7 @@ background: var(--light-blue, #F7FAFF);
   overflow: auto;
   background-color: var(--color-white);
     transform: translateX(100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 450ms ease-in-out;
 }
   .mob-menu:not(.is-open) {
       opacity: 0;
