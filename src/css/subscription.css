@@ -49,7 +49,7 @@
   border: 1px solid var(--blue-font, #0a224a);
   color: #0a224a;
   fill: #061835;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -57,7 +57,7 @@
 
 .subscr-text-input::placeholder {
   color: #d9d9d9;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -80,7 +80,7 @@
 
 .subscr-email-input::placeholder {
   color: #d9d9d9;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -210,6 +210,12 @@
   }
   .subscr-div-email {
     width: 536px;
+  }
+
+  .subscr-div-text {
+    width: 536px;
+    align-items: flex-start;
+    font-size: 18px;
   }
   .subscr-email-input {
     width: 536px;
