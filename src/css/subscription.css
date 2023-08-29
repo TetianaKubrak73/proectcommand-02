@@ -32,6 +32,7 @@
 
 .subscr-div-text {
   margin-bottom: 20px;
+  position: relative;
 }
 .subscr-text-input {
   display: flex;
@@ -40,13 +41,28 @@
   padding: 11px 20px;
   align-items: center;
   gap: 8px;
-  flex-shrink: 0;
+  border: 1px solid var(--color-dark-grey);
+  outline: transparent;
 }
-.subscr-text-input:hover {
+.subscr-text-input:hover,
+.subscr-text-input:focus {
   border: 1px solid var(--blue-font, #0a224a);
   color: #0a224a;
   fill: #061835;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
+
+.subscr-text-input::placeholder {
+  color: #d9d9d9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
 .subscr-div-email {
   margin-bottom: 20px;
   position: relative;
@@ -58,34 +74,49 @@
   padding: 11px 20px;
   align-items: center;
   gap: 8px;
-  flex-shrink: 0;
-
+  border: 1px solid var(--color-dark-grey);
+  outline: transparent;
 }
+
+.subscr-email-input::placeholder {
+  color: #d9d9d9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
 .subscr-email-svg {
   position: absolute;
   top: 13px;
   right: 14px;
-  /*
-  fill: #e74a3b;
-  */
-  fill: #ffffff;
+  fill: transparent;
 }
 
-.subscr-email-input:hover {
+.subscr-email-input:hover,
+.subscr-email-input:focus {
   border: 1px solid var(--blue-font, #0a224a);
   color: #0a224a;
   fill: #061835;
 }
 
-.subscr-email-input:focus:invalid + .subscr-email-svg {
-  border: none;
+.subscr-text-input:focus:invalid {
+  color: #e74a3b;
+  border-color: #e74a3b;
+}
 
-  border-radius: 1px;
+.subscr-text-input:focus:invalid + .subscr-email-svg {
   color: #e74a3b;
   fill: #e74a3b;
 }
+
 .subscr-email-input:focus:invalid {
-  outline: 2px solid #e74a3b;
+  color: #e74a3b;
+  border-color: #e74a3b;
+}
+.subscr-email-input:focus:invalid + .subscr-email-svg {
+  color: #e74a3b;
+  fill: #e74a3b;
 }
 
 /*-----------------------------------*/

@@ -11,20 +11,23 @@
             type="text"
             name="user-name"
             class="subscr-text-input"
-            placeholder="Name*"
-            maxlength="16"
+            placeholder="Name"
             minlength="2"
+            maxlength="16"
             required
           />
+          <svg width="25" height="25" class="subscr-email-svg">
+            <use href="./img/icons.svg#icon-ierror"></use>
+          </svg>
         </div>
         <div class="subscr-div-email">
           <input
             type="email"
             name="user-email"
             class="subscr-email-input"
-            placeholder="E-mail*"
-            maxlength="50"
+            placeholder="E-mail"
             minlength="5"
+            maxlength="50"
             required
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
           />
