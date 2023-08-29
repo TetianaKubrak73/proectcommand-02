@@ -23,9 +23,10 @@
             name="user-email"
             class="subscr-email-input"
             placeholder="E-mail*"
-            maxlength="16"
-            minlength="2"
+            maxlength="50"
+            minlength="5"
             required
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
           />
           <svg width="25" height="25" class="subscr-email-svg">
             <use href="./img/icons.svg#icon-ierror"></use>
