@@ -72,6 +72,7 @@ background: var(--light-blue, #F7FAFF);
     gap: 17px;
     padding-top: 114px;
     padding-bottom: 365px;
+    align-items: center;
 }
 
 .mob-menu-link {
